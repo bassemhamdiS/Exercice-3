@@ -27,7 +27,7 @@ namespace FileReadingLibraryTest
         {
            
                 var textFileReader = new TestFileReader();
-                var result = textFileReader.Read(@"C:\Users\bassem\Desktop\TrainingUpselling.txt");
+                var result = textFileReader.Read(@"C:\Users\bassem\Desktop\SourceCode\Exercice 3\FileReadingLibrary\testtxt.txt");
                Assert.IsNotNull(result);
             
         }

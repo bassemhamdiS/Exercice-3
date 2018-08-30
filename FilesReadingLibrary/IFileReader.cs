@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FilesReadingLibrary.TextFilesReader
+namespace FilesReadingLibrary
 {
-    public interface ITextFileReader
+    interface IFileReader
     {
-         string Read(string path);
+        string Read(string path);
     }
 }

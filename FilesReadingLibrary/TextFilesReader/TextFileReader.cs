@@ -7,7 +7,7 @@ using System.IO;
 
 namespace FilesReadingLibrary.TextFilesReader
 {
-    public class TestFileReader : ITextFileReader
+    public class TestFileReader : IFileReader
     {
         public string Read(string path)
         {
