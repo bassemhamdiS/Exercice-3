@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28010.2016
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercice 3", "Exercice 3\Exercice 3.csproj", "{237DEA2C-2034-45B4-908B-77C1F22A03F1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FilesReadingLibrary", "FilesReadingLibrary\FilesReadingLibrary.csproj", "{D6BA6675-2E0D-4662-BB6A-F46C2406B36A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileReadingLibraryTest", "FileReadingLibrary\FileReadingLibraryTest.csproj", "{8BEA302C-EC0C-4509-BFC1-E526C9B5CCED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{237DEA2C-2034-45B4-908B-77C1F22A03F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{237DEA2C-2034-45B4-908B-77C1F22A03F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{237DEA2C-2034-45B4-908B-77C1F22A03F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6BA6675-2E0D-4662-BB6A-F46C2406B36A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6BA6675-2E0D-4662-BB6A-F46C2406B36A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6BA6675-2E0D-4662-BB6A-F46C2406B36A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6BA6675-2E0D-4662-BB6A-F46C2406B36A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BEA302C-EC0C-4509-BFC1-E526C9B5CCED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BEA302C-EC0C-4509-BFC1-E526C9B5CCED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BEA302C-EC0C-4509-BFC1-E526C9B5CCED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BEA302C-EC0C-4509-BFC1-E526C9B5CCED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
