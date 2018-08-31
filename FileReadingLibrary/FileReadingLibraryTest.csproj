@@ -49,11 +49,13 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="TextFileReadingText.cs" />
+    <Compile Include="EncryptedTextReadingTest.cs" />
+    <Compile Include="TextFileReadingTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="XmlFileReaderTest.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
@@ -63,8 +65,9 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="testtxt.txt" />
-    <Content Include="testXml.xml" />
+    <Content Include="Ressources\TestCryptedtxt.txt" />
+    <Content Include="Ressources\TestCleartxt.txt" />
+    <Content Include="Ressources\testXml.xml" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

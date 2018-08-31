@@ -13,7 +13,7 @@ namespace FileReadingLibraryTest
         {
             try
             {
-                var textFileReader = new TestFileReader();
+                var textFileReader = new ClearTestFileReader();
                 textFileReader.Read(null);
             }
             catch(ArgumentNullException ex)
@@ -26,8 +26,8 @@ namespace FileReadingLibraryTest
         public void TestReadingFile_WhenFilePath_isValid_FileIsReaded()
         {
            
-                var textFileReader = new TestFileReader();
-                var result = textFileReader.Read(@"C:\Users\bassem\Desktop\SourceCode\Exercice 3\FileReadingLibrary\testtxt.txt");
+                var textFileReader = new ClearTestFileReader();
+                var result = textFileReader.Read(@"C:\Users\bassem\Desktop\SourceCode\Exercice 3\FileReadingLibrary\Ressources\testtxt.txt");
                Assert.IsNotNull(result);
             
         }

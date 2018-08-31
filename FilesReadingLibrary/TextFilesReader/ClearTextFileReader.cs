@@ -7,7 +7,7 @@ using System.IO;
 
 namespace FilesReadingLibrary.TextFilesReader
 {
-    public class TestFileReader : IFileReader
+    public class ClearTestFileReader : TextFileReaderFactory, IFileReader
     {
         public string Read(string path)
         {
@@ -15,7 +15,14 @@ namespace FilesReadingLibrary.TextFilesReader
             {
                 throw new ArgumentNullException("File path is not provided.");
             }
-            return File.ReadAllText(path);
+            try
+            {
+                return File.ReadAllText(path);
+            }
+            catch(FileNotFoundException ex)
+            {
+                throw ex;
+            }
         }
     }
 }

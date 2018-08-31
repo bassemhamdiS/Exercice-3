@@ -32,6 +32,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -41,10 +42,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AppConfigFacade.cs" />
     <Compile Include="IFileReader.cs" />
-    <Compile Include="TextFilesReader\TextFileReader.cs" />
+    <Compile Include="TextFilesReader\ClearTextFileReader.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TextFilesReader\EncryptedFileReader.cs" />
+    <Compile Include="TextFilesReader\TextFileReaderFactory.cs" />
     <Compile Include="XMLFileReader\XMLFileReader.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

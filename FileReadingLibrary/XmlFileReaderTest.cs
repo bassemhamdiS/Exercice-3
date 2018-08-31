@@ -11,7 +11,7 @@ namespace FileReadingLibrary
         {
 
             var xmlFileReader = new XMLFileReader();
-            var result = xmlFileReader.Read(@"C:\Users\bassem\Desktop\SourceCode\Exercice 3\FileReadingLibrary\testxML.xml");
+            var result = xmlFileReader.Read(@"C:\Users\bassem\Desktop\SourceCode\Exercice 3\FileReadingLibrary\Ressources\testxML.xml");
             Assert.IsNotNull(result.Contains("note"));
 
         }

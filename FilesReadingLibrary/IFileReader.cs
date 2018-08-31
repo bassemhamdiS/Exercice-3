@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FilesReadingLibrary
 {
-    interface IFileReader
+    public interface IFileReader
     {
         string Read(string path);
     }
